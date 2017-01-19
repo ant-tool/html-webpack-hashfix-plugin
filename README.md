@@ -40,8 +40,8 @@ Add new plugin instance to your `webpack` config
 ## Configuration
 The plugin accepts the following options:
 
-- separator: separator of fileName and hashCode; 文件名和 hash 值的分隔符，
-- prefixPath: add prefixPath for html assets path; 可以给 html 引用的静态文件自定义前缀路径
+- separator: separator of fileName and hashCode; 文件名和 hash 值的分隔符。
+- prefixPath: add prefixPath for html assets path; 可以给 html 引用的静态文件自定义前缀路径。
 
 
 ### License

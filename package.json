@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-hashfix-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "webpack plugin repath assets with hash in outputs multiple html",
   "main": "index.js",
   "scripts": {
