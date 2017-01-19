@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-hashfix-plugin",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "webpack plugin repath assets with hash in outputs multiple html",
   "main": "index.js",
   "scripts": {
@@ -52,5 +52,11 @@
     "rimraf": "^2.5.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.12.15"
-  }
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
 }
