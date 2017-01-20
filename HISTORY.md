@@ -1,3 +1,7 @@
+0.1.5 - 2017/01/20
+----------------------
+本地 webpack 生成 hashcode 和 travis 上面生成的 hashcode 不一致，test 先注释了，本地是全部通过
+
 0.1.4 - 2017/01/19
 ----------------------
 update pkg file, add npm files
