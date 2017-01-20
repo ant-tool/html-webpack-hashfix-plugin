@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-hashfix-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "webpack plugin repath assets with hash in outputs multiple html",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "compile:watch": "npm run compile -- --watch",
     "lint": "eslint src test",
     "test": "babel-node $(npm bin)/babel-istanbul cover $(npm bin)/_mocha -- --no-timeouts",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "pub": "npm run compile && npm pub"
   },
   "repository": {
     "type": "git",

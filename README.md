@@ -46,3 +46,7 @@ The plugin accepts the following options:
 
 ### License
 MIT
+
+## other
+
+- webpack chunkhash code in local are not as same as travis-ci, you can run test case in local.

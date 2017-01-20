@@ -46,7 +46,7 @@ describe('HtmlHashFix', () => {
     );
   });
 
-  it('without param', done => {
+  xit('without param', done => {
     compile(
       new HtmlHashFix(),
       '-',
@@ -76,7 +76,7 @@ describe('HtmlHashFix', () => {
     );
   });
 
-  it('with param separator .', done => {
+  xit('with param separator .', done => {
     compile(
       new HtmlHashFix({
         separator: '.',
@@ -92,7 +92,7 @@ describe('HtmlHashFix', () => {
     );
   });
 
-  it('with param prefixPath ../aaa/bb', done => {
+  xit('with param prefixPath ../aaa/bb', done => {
     compile(
       new HtmlHashFix({
         separator: '.',
